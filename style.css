@@ -149,3 +149,9 @@ main {
   font-weight: 600;
   line-height: 30px;
 }
+.work-info{
+    width: 1140px;
+    margin: 0 auto;
+    padding: 40px 200px;
+
+}
