@@ -1,55 +1,85 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap");
 
-htm,body{
-    font-family: 'Open Sans', sans-serif;
+htm,
+body {
+  font-family: "Open Sans", sans-serif;
 }
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
 /*! nav styles start here  */
+.header {
+  background-color: #fff8f3;
+}
 
-nav{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 10px;
-    padding: 5px;
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5px;
 }
 
 /*! menu style start */
 
-ul{
-    display: flex;
-    align-items: center;
-    gap: 27px;
-
+ul {
+  display: flex;
+  align-items: center;
+  gap: 27px;
 }
-.logo>h3{
-    color: #181818;
-    font-size: 45px;
-    font-weight: 800;
+.logo > h3 {
+  color: #181818;
+  font-size: 45px;
+  font-weight: 800;
 }
 /* ! logo style start */
-span{
-    color: #FD6E0A;
+span {
+  color: #fd6e0a;
 }
-ul,li,a{
-    list-style: none;
-    text-decoration: none;
-    color: #474747;
-    font-size: 20px;
-    font-weight: 400;
+ul,
+li,
+a {
+  list-style: none;
+  text-decoration: none;
+  color: #474747;
+  font-size: 20px;
+  font-weight: 400;
 }
-.nav-button{
-    cursor: pointer;
-    font-size: 16px;
-    font-weight: 600;
-    padding: 16px 28px;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    background: #FD6E0A;
+.nav-button {
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 16px 28px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  background: #fd6e0a;
+}
+/* !header banner style */
+.nav-banner-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.header-image {
+  border: 1px solid black;
+  width: auto;
+  height: auto;
+  background-image: url(images/header_bg.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.main-image {
+  background-image: url(images/header_bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  width: auto;
+  height: 400px;
+}
+.banner-title-box {
+  margin-left: 150px;
 }
