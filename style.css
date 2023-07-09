@@ -56,15 +56,14 @@ a {
   background: #fd6e0a;
 }
 /* !header banner style */
-.nav-banner-container {
+.nav-banner-container{
   display: flex;
   justify-content: space-around;
   align-items: center;
   background-image: url(images/header_bg.png);
-  background-repeat: no-repeat;
-  background-position: bottom right;
+  background-position:;
 }
-.nav-banner-container {
+.nav-banner-container{
   background-image: url(images/developer.png);
   background-repeat: no-repeat;
   background-position: top left;
@@ -273,40 +272,37 @@ main {
 /* ! Footer style start here */
 .foooter-container{
   display: flex;
-  justify-content: center;
-  border: 1px solid;
+  justify-content: space-evenly;
   height: 780px;
   width: 100vw;
   background-color:#FFF8F3;
   
 }
 .footer-left{
-  padding: 50px;
+  padding:
 }
 .footer-social-title{
   color: #181818;
   font-size: 30px;
   font-weight: 600;
+  margin-bottom: 10px;
+  margin-top: 100px;
 }
 .foooter-para{
-  padding: 25px 0px;
+  margin-bottom: 15px;
+  
 
 }
-.footer-right{
-  padding: 50px;
-}
+
 .footer-social-icon >img{
-  margin-left: 10px;
+  gap: 20px;
 }
 form,input{
   display: block;
   margin-bottom: 10px;
-  padding: 8px 20px;
+  padding: 8px 0px;
   width: 350px;
 }
 input,textarea{
   padding: 10px;
-}
-input> button{
-  width: fit-content;
 }
