@@ -95,6 +95,12 @@ a {
   font-weight: 400;
   line-height: 30px;
 }
+.banner-greeting {
+  color: #474747;
+  font-size: 45px;
+  font-weight: 600;
+  line-height: normal;
+}
 .banner-title-box .nav-button {
   margin-top: 15px;
 }
@@ -225,7 +231,7 @@ main {
   padding-bottom: 5px;
 }
 .edu-year {
-  color:#757575;
+  color: #757575;
   font-size: 16px;
   font-weight: 400;
   padding-bottom: 10px;
@@ -235,27 +241,72 @@ main {
   line-height: 20px;
   padding-bottom: 25px;
   text-align: justify;
-
 }
 .resumecontainer-left-one {
   border-bottom: 1px solid #5c5a5a;
   margin-bottom: 25px;
 }
-.resumecontainer-left-two{
+.resumecontainer-left-two {
   border-bottom: 1px solid #5c5a5a;
   margin-bottom: 25px;
 }
-.resumecontainer-left-three{
+.resumecontainer-left-three {
   margin-bottom: 25px;
 }
-.resume-container-right-one{
+.resume-container-right-one {
   border-bottom: 1px solid #5c5a5a;
   margin-bottom: 25px;
 }
-.resume-container-right-two{
+.resume-container-right-two {
   border-bottom: 1px solid #5c5a5a;
   margin-bottom: 25px;
 }
-.resume-container-right-three{
+.resume-container-right-three {
   margin-bottom: 25px;
+}
+.btn{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+/* ! Footer style start here */
+.foooter-container{
+  display: flex;
+  justify-content: center;
+  border: 1px solid;
+  height: 780px;
+  width: 100vw;
+  background-color:#FFF8F3;
+  
+}
+.footer-left{
+  padding: 50px;
+}
+.footer-social-title{
+  color: #181818;
+  font-size: 30px;
+  font-weight: 600;
+}
+.foooter-para{
+  padding: 25px 0px;
+
+}
+.footer-right{
+  padding: 50px;
+}
+.footer-social-icon >img{
+  margin-left: 10px;
+}
+form,input{
+  display: block;
+  margin-bottom: 10px;
+  padding: 8px 20px;
+  width: 350px;
+}
+input,textarea{
+  padding: 10px;
+}
+input> button{
+  width: fit-content;
 }
