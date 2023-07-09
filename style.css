@@ -64,6 +64,14 @@ a {
   background-repeat: no-repeat;
   background-position: bottom right;
 }
+.nav-banner-container{
+  background-image: url(images/developer.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: contain;
+  margin-left: 10px;
+
+}
 .developer-image {
   height: 300px;
 }
@@ -154,4 +162,24 @@ main {
     margin: 0 auto;
     padding: 40px 200px;
 
+}
+
+/* ! Experience container style start */
+
+.experience-container{
+  display: flex;
+  width: 1140px;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+.expereience-cart{
+  margin-right: 10px;
+  padding: 50px 40px;
+  box-shadow: 4px 4px 8px rgba(0, 0, 1, 0.4);
+}
+.icon-cart{
+  margin-bottom: 20px;
+}
+.title-cart{
+  margin-bottom: 20px;
 }
