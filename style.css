@@ -56,23 +56,16 @@ a {
   background: #fd6e0a;
 }
 /* !header banner style */
-.nav-banner-container{
+.nav-banner-container {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-image: url(images/header_bg.png);
-  background-position:;
-}
-.nav-banner-container{
-  background-image: url(images/developer.png);
+  background-image: url(images/header_bg.png), url(images/developer.png);
   background-repeat: no-repeat;
-  background-position: top left;
+  background-position: bottom right, top left;
   background-size: contain;
-  margin-left: 10px;
 }
-.developer-image {
-  height: 300px;
-}
+
 .main-image {
   width: 500px;
 }
@@ -263,46 +256,43 @@ main {
 .resume-container-right-three {
   margin-bottom: 25px;
 }
-.btn{
+.btn {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
 }
 
 /* ! Footer style start here */
-.foooter-container{
+.foooter-container {
   display: flex;
   justify-content: space-evenly;
   height: 780px;
   width: 100vw;
-  background-color:#FFF8F3;
-  
+  background-color: #fff8f3;
 }
-.footer-left{
-  padding:
-}
-.footer-social-title{
+
+.footer-social-title {
   color: #181818;
   font-size: 30px;
   font-weight: 600;
   margin-bottom: 10px;
-  margin-top: 100px;
+  margin-top: 200px;
 }
-.foooter-para{
+.foooter-para {
   margin-bottom: 15px;
-  
-
 }
 
-.footer-social-icon >img{
+.footer-social-icon > img {
   gap: 20px;
 }
-form,input{
+form,
+input {
   display: block;
   margin-bottom: 10px;
   padding: 8px 0px;
   width: 350px;
 }
-input,textarea{
+input,
+textarea {
   padding: 10px;
 }
