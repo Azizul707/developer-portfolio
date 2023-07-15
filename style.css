@@ -63,11 +63,11 @@ a {
   background-image: url(images/header_bg.png), url(images/developer.png);
   background-repeat: no-repeat;
   background-position: bottom right, top left;
-  background-size: contain;
+  background-size: min-content;
 }
 
 .main-image {
-  width: 500px;
+ width: auto;
 }
 .banner-title-box {
   margin-left: 200px;
@@ -75,7 +75,7 @@ a {
   font-weight: 400;
 }
 .banner-title-box > h1 {
-  color: #181818;
+ color: #181818;
   font-size: 75px;
   font-weight: 700;
 }
@@ -299,10 +299,148 @@ textarea {
   width: 100%;
   border: none;
 }
-.submit-btn{
+.submit-btn {
   width: fit-content;
   background-color: #fd6e0a;
   color: #fff;
   padding: 8px 12px;
   margin-top: 10px;
+}
+
+/* ! responsive style start */
+@media only screen and (max-width: 576px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-banner-container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #000;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: none;
+  }
+
+  .banner-title-box {
+    border: 1px solid #000;
+    margin-left: 0px;
+    color: #474747;
+    font-weight: 400;
+}
+  .about{
+    width: fit-content;
+    padding: 40px 50px;
+    border: 1px solid;
+  }
+  
+  .about-info-container {
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+  .experience-container {
+    display: flex;
+    width: 70vw;
+    margin: 0 auto;
+    padding: 40px 0;
+    margin-top: 50px;
+    flex-direction: column;
+
+  }
+  .expereience-cart {
+    text-align: center;
+  }
+  .work-info {
+    width: fit-content;
+    margin: 0 auto;
+    padding: 40px 50px;
+    margin-top: 50px;}
+.foooter-container {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: fit-content;
+    padding: 0.5rem;
+}
+  }
+
+
+/* ! medium device or tab */
+
+@media only screen and (min-width: 576px) and (max-width: 922px) {
+  nav {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+  }
+
+  ul {
+    display: flex;
+    align-items: center;
+  }
+
+  .nav-banner-container {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .banner-title-box {
+  
+  }
+  .experience-container {
+    display: flex;
+    width: 70vw;
+    margin: 0 auto;
+    padding: 40px 0;
+    margin-top: 50px;
+    flex-direction: column;
+
+  }
+  .work-info {
+    width: fit-content;
+    margin: 0 auto;
+    padding: 40px 50px;
+    margin-top: 50px;
+}
+.about{
+  width: fit-content;
+  padding: 40px 50px;
+  border: 1px solid;
+}
+
+.about-info-container {
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+.expereience-cart {
+  text-align: center;
+  margin-right: 10px;
+  padding: 50px 40px;
+ 
+
+}
+
+.foooter-container {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  width: fit-content;
+  padding: 0.5rem;
+
+}
 }
